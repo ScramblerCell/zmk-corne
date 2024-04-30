@@ -40,7 +40,7 @@
         };
 
         capsLock {
-            bindings = <&caps_word>;
+            bindings = <&kp CAPSLOCK>;
             key-positions = <26 33 27 32>;
         };
 
