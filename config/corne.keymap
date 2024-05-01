@@ -92,7 +92,7 @@
 &kp LS(LC(LA(LG(B))))         &kp LA(LC(LG(RS(TILDE))))     &kp LG(LEFT_BRACKET)  &kp LG(RIGHT_BRACKET)  &none             &kp LG(X)                 &kp LS(TAB)    &kp PAGE_DOWN  &kp PAGE_UP  &kp TAB    &kp ESCAPE  &none
 &kp LG(LC(LA(LS(NUMBER_4))))  &kp LS(LA(LC(LG(NUMBER_2))))  &kp LS(LG(Z))         &kp LG(Z)              &kp LG(C)         &kp LG(V)                 &kp LEFT       &kp DOWN       &kp UP       &kp RIGHT  &kp RET     &trans
 &kp LA(LC(LEFT_SHIFT))        &kp LEFT_CONTROL              &kp LEFT_SHIFT        &kp LEFT_ALT           &kp LEFT_COMMAND  &kp LA(LG(LC(LSHIFT)))    &trans         &trans         &trans       &trans     &trans      &trans
-                                                                                  &none                  &trans            &none                     &kp BACKSPACE  &kp SPACE      &none
+                                                                                  &none                  &trans            &none                     &kp BACKSPACE  &kp SPACE      &kp DELETE
             >;
         };
 
@@ -104,10 +104,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp TAB                 &none             &kp K_MUTE      &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp C_BRIGHTNESS_INC          &none          &kp N7                &kp N8  &kp N9  &kp PLUS   &none
-&none                   &trans            &kp K_PREV      &kp C_PLAY         &kp C_NEXT       &kp C_BRIGHTNESS_DEC          &kp DOT        &kp N4                &kp N5  &kp N6  &kp EQUAL  &kp ASTERISK
-&kp LA(LC(LEFT_SHIFT))  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &kp LEFT_ALT       &kp LEFT_GUI     &kp LA(LC(LG(LEFT_SHIFT)))    &kp COMMA      &kp N1                &kp N2  &kp N3  &kp MINUS  &kp FSLH
-                                                          &none              &trans           &none                         &kp BACKSPACE  &mt LEFT_SHIFT SPACE  &kp N0
+&kp TAB                 &none             &kp K_MUTE      &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp C_BRIGHTNESS_INC          &none          &kp N7     &kp N8   &kp N9  &kp PLUS   &none
+&none                   &trans            &kp K_PREV      &kp C_PLAY         &kp C_NEXT       &kp C_BRIGHTNESS_DEC          &kp DOT        &kp N4     &kp N5   &kp N6  &kp EQUAL  &kp ASTERISK
+&kp LA(LC(LEFT_SHIFT))  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &kp LEFT_ALT       &kp LEFT_GUI     &kp LA(LC(LG(LEFT_SHIFT)))    &kp N0         &kp N1     &kp N2   &kp N3  &kp MINUS  &kp FSLH
+                                                          &none              &trans           &none                         &kp BACKSPACE  &kp SPACE  &kp DEL
             >;
         };
 
@@ -122,10 +122,10 @@
 
         SYM {
             bindings = <
-&none   &none   &none   &none          &none      &none         &kp POUND  &kp PERCENT            &kp EXCLAMATION  &kp TILDE          &kp PIPE    &none
-&none   &none   &none   &none          &none      &none         &kp GRAVE  &kp LEFT_PARENTHESIS   &kp LEFT_BRACE   &kp LEFT_BRACKET   &kp DOLLAR  &kp AMPERSAND
-&trans  &trans  &trans  &trans         &trans     &trans        &kp CARET  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE  &kp RIGHT_BRACKET  &kp AT      &none
-                        &kp BACKSPACE  &kp SPACE  &kp RETURN    &none      &none                  &none
+&none   &none   &none   &none          &none      &none      &kp POUND  &kp PERCENT            &kp EXCLAMATION  &kp TILDE          &kp PIPE    &none
+&none   &none   &none   &none          &none      &none      &kp GRAVE  &kp LEFT_PARENTHESIS   &kp LEFT_BRACE   &kp LEFT_BRACKET   &kp DOLLAR  &kp AMPERSAND
+&trans  &trans  &trans  &trans         &trans     &trans     &kp CARET  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE  &kp RIGHT_BRACKET  &kp AT      &none
+                        &kp BACKSPACE  &kp SPACE  &kp DEL    &none      &none                  &none
             >;
         };
 
