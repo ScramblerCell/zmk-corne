@@ -77,7 +77,7 @@
 &none      &kp Q               &kp W             &kp E           &kp R               &kp T                           &kp Y                          &kp U                &kp I                &kp O                   &kp P                    &kp MINUS
 &none      &kp A               &kp S             &kp D           &kp F               &kp G                           &kp H                          &kp J                &kp K                &kp L                   &kp SEMI                 &kp SQT
 &kp LSHFT  &mt LEFT_CONTROL Z  &mt LEFT_SHIFT X  &mt LEFT_ALT C  &mt LEFT_COMMAND V  &mt LA(LC(LG(LEFT_SHIFT))) B    &mt RA(RC(RG(RIGHT_SHIFT))) N  &mt RIGHT_COMMAND M  &mt RIGHT_ALT COMMA  &mt RIGHT_SHIFT PERIOD  &mt RIGHT_CONTROL SLASH  &kp ESC
-                                                 &lt 3 DEL       &lt 1 BACKSPACE     &lt 2 TAB                       &mt C LSHFT                    &lt 4 SPACE          &lt 5 ESCAPE
+                                                 &lt 3 DEL       &lt 1 BACKSPACE     &lt 2 TAB                       &mt LEFT_SHIFT RET             &lt 4 SPACE          &lt 5 ESCAPE
             >;
         };
 
