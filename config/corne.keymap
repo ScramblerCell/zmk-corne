@@ -61,6 +61,11 @@
             bindings = <&kp LC(LA(LS(LG(F))))>;
             key-positions = <20 15 14 21>;
         };
+
+        HomeRowAppScroll {
+            bindings = <&kp LS(LG(J))>;
+            key-positions = <15 16 14 19 20 21>;
+        };
     };
 
     keymap {
