@@ -95,10 +95,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&none  &kp J               &kp G             &kp M           &kp P               &kp V                             &kp SEMI   &kp DOT      &kp FSLH   &kp DOUBLE_QUOTES  &kp SINGLE_QUOTE  &none
-&none  &kp R               &kp S             &kp N           &kp D               &kp B                             &kp COMMA  &kp A        &kp E      &kp I              &kp H             &none
-&none  &mt LEFT_CONTROL X  &mt LEFT_SHIFT F  &mt LEFT_ALT L  &mt LEFT_COMMAND C  &mt LS(LA(LC(LEFT_COMMAND))) W    &kp MINUS  &kp U        &kp O      &kp Y              &kp K             &none
-                                             &lt 3 DEL       &lt 1 BACKSPACE     &kp T                             &lt 2 TAB  &lt 4 SPACE  &lt 5 RET
+&none                 &kp J               &kp G             &kp M           &kp P               &kp V                             &kp SEMI   &kp DOT              &kp FSLH         &kp DOUBLE_QUOTES  &kp SINGLE_QUOTE     &none
+&none                 &kp R               &kp S             &kp N           &kp D               &kp B                             &kp COMMA  &kp A                &kp E            &kp I              &kp H                &none
+&kp LS(LC(LEFT_ALT))  &mt LEFT_CONTROL X  &mt LEFT_SHIFT F  &mt LEFT_ALT L  &mt LEFT_COMMAND C  &mt LS(LA(LC(LEFT_COMMAND))) W    &kp MINUS  &mt RIGHT_COMMAND U  &mt RIGHT_ALT O  &mt RIGHT_SHIFT Y  &mt RIGHT_CONTROL K  &kp LS(LC(LEFT_ALT))
+                                                            &lt 3 DEL       &lt 1 T             &kp BACKSPACE                     &lt 2 TAB  &lt 4 SPACE          &lt 5 RET
             >;
         };
 
