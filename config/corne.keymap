@@ -10,7 +10,7 @@
 
 &mt {
     flavor = "balanced";
-    tapping-term-ms = <175>;
+    tapping-term-ms = <180>;
 };
 
 / {
@@ -151,6 +151,15 @@
 &sys_reset  &none         &none         &none         &none         &none    &none  &none  &none  &none  &none       &none
                                         &none         &none         &none    &none  &none  &none
             >;
+        };
+    };
+
+    conditional_layers {
+        compatible = "zmk,conditional-layers";
+
+        right-hand-num-layer {
+            if-layers = <1 3>;
+            then-layer = <2>;
         };
     };
 };
