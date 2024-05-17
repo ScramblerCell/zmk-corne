@@ -74,10 +74,10 @@
     };
 
     behaviors {
-        new_behavior: new_behavior {
+        j_q_Mod_Morph: j_q_Mod_Morph {
             compatible = "zmk,behavior-mod-morph";
-            label = "NEW_BEHAVIOR";
-            bindings = <&kp SINGLE_QUOTE>, <&kp EXCLAMATION>;
+            label = "J_Q_MOD_MORPH";
+            bindings = <&kp Q>, <&kp Z>;
 
             #binding-cells = <0>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
@@ -95,7 +95,7 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&none                 &kp J               &kp G             &kp M           &kp P               &kp V                             &kp SEMI   &kp DOT              &kp FSLH         &kp DOUBLE_QUOTES  &kp SINGLE_QUOTE     &none
+&none                 &kp J               &kp G             &kp M           &kp P               &kp V                             &kp SEMI   &kp DOT              &kp FSLH         &kp DOUBLE_QUOTES  &kp Q                &none
 &none                 &kp R               &kp S             &kp N           &kp D               &kp B                             &kp COMMA  &kp A                &kp E            &kp I              &kp H                &none
 &kp LS(LC(LEFT_ALT))  &mt LEFT_CONTROL X  &mt LEFT_SHIFT F  &mt LEFT_ALT L  &mt LEFT_COMMAND C  &mt LS(LA(LC(LEFT_COMMAND))) W    &kp MINUS  &mt RIGHT_COMMAND U  &mt RIGHT_ALT O  &mt RIGHT_SHIFT Y  &mt RIGHT_CONTROL K  &kp LS(LC(LEFT_ALT))
                                                             &lt 3 DEL       &lt 1 T             &kp BACKSPACE                     &lt 2 TAB  &lt 4 SPACE          &lt 5 RET
