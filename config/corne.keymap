@@ -73,6 +73,17 @@
         };
     };
 
+    behaviors {
+        new_behavior: new_behavior {
+            compatible = "zmk,behavior-mod-morph";
+            label = "NEW_BEHAVIOR";
+            bindings = <&kp SINGLE_QUOTE>, <&kp EXCLAMATION>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -84,10 +95,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&none      &kp Q               &kp W             &kp E           &kp R               &kp T                           &kp Y                          &kp U                &kp I                &kp O                   &kp P                    &kp MINUS
-&none      &kp A               &kp S             &kp D           &kp F               &kp G                           &kp H                          &kp J                &kp K                &kp L                   &kp SEMI                 &kp SQT
-&kp LSHFT  &mt LEFT_CONTROL Z  &mt LEFT_SHIFT X  &mt LEFT_ALT C  &mt LEFT_COMMAND V  &mt LA(LC(LG(LEFT_SHIFT))) B    &mt RA(RC(RG(RIGHT_SHIFT))) N  &mt RIGHT_COMMAND M  &mt RIGHT_ALT COMMA  &mt RIGHT_SHIFT PERIOD  &mt RIGHT_CONTROL SLASH  &kp ESC
-                                                 &lt 3 DEL       &lt 1 BACKSPACE     &mt LEFT_SHIFT TAB              &lt 2 RET                      &lt 4 SPACE          &lt 5 ESCAPE
+&none  &kp J               &kp G             &kp M           &kp P               &kp V                             &kp SEMI   &kp DOT      &kp FSLH   &kp DOUBLE_QUOTES  &kp SINGLE_QUOTE  &none
+&none  &kp R               &kp S             &kp N           &kp D               &kp B                             &kp COMMA  &kp A        &kp E      &kp I              &kp H             &none
+&none  &mt LEFT_CONTROL X  &mt LEFT_SHIFT F  &mt LEFT_ALT L  &mt LEFT_COMMAND C  &mt LS(LA(LC(LEFT_COMMAND))) W    &kp MINUS  &kp U        &kp O      &kp Y              &kp K             &none
+                                             &lt 3 DEL       &lt 1 BACKSPACE     &kp T                             &lt 2 TAB  &lt 4 SPACE  &lt 5 RET
             >;
         };
 
