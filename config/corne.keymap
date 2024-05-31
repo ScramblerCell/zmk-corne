@@ -62,18 +62,13 @@
             key-positions = <20 15 14 21>;
         };
 
-        HomeRowAppScroll {
-            bindings = <&kp LS(LG(J))>;
-            key-positions = <15 16 14 19 20 21>;
-        };
-
         sticky_shift {
             bindings = <&kp LEFT_SHIFT>;
             key-positions = <38 39>;
         };
 
         HomeRowAppScrolling {
-            bindings = <&kp LC(LA(LS(LG(F))))>;
+            bindings = <&kp LC(LA(LS(LG(J))))>;
             key-positions = <20 15 16 19>;
         };
     };
