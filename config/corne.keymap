@@ -106,7 +106,7 @@
             >;
         };
 
-        NUM {
+        NUM+MEDIA {
             // -----------------------------------------------------------------------------------------
             // |  TAB |  !  |  @  |  #  |  $  |  %  |   |  ^  |  &  |  *  |  (  |  )  | BKSP |
             // | CTRL |     |     |     |     |     |   |  -  |  =  |  [  |  ]  |  \  |  `   |
@@ -114,14 +114,14 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp TAB                 &none             &kp K_MUTE      &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp C_BRIGHTNESS_INC          &none    &kp N7  &kp N8  &kp N9  &kp PLUS   &none
-&tog 5                  &trans            &kp K_PREV      &kp C_PLAY         &kp C_NEXT       &kp C_BRIGHTNESS_DEC          &kp DOT  &kp N4  &kp N5  &kp N6  &kp EQUAL  &kp ASTERISK
-&kp LA(LC(LEFT_SHIFT))  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &kp LEFT_ALT       &kp LEFT_GUI     &kp LA(LC(LG(LEFT_SHIFT)))    &kp N0   &kp N1  &kp N2  &kp N3  &kp MINUS  &kp FSLH
-                                                          &kp BACKSPACE      &kp SPACE        &kp DEL                       &none    &none   &none
+&kp TAB                 &none             &kp K_MUTE      &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp C_BRIGHTNESS_INC          &none       &kp N7  &kp N8  &kp N9  &kp PLUS   &none
+&tog 5                  &trans            &kp K_PREV      &kp C_PLAY         &kp C_NEXT       &kp C_BRIGHTNESS_DEC          &kp N0      &kp N4  &kp N5  &kp N6  &kp EQUAL  &kp ASTERISK
+&kp LA(LC(LEFT_SHIFT))  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &kp LEFT_ALT       &kp LEFT_GUI     &kp LA(LC(LG(LEFT_SHIFT)))    &kp PERIOD  &kp N1  &kp N2  &kp N3  &kp MINUS  &kp FSLH
+                                                          &kp BACKSPACE      &kp SPACE        &kp DEL                       &none       &none   &none
             >;
         };
 
-        WIN {
+        WIN+FN {
             bindings = <
 &none   &none   &kp LA(LC(MINUS))  &kp LA(LC(EQUAL))              &none                              &none                                             &none  &kp F7      &kp F8     &kp F9  &kp F10  &none
 &none   &none   &kp LG(M)          &kp LC(LA(LS(B)))              &kp LC(LG(F))                      &kp LS(LC(LA(G)))                                 &none  &kp F4      &kp F5     &kp F6  &kp F11  &kp ESC
