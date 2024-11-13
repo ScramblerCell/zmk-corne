@@ -84,10 +84,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&kp ESCAPE  &kp Q               &kp W             &kp E           &kp R               &kp T                           &kp Y                          &kp U                &kp I                &kp O                   &kp P                    &kp MINUS
-&mo 2       &kp A               &kp S             &kp D           &kp F               &kp G                           &kp H                          &kp J                &kp K                &kp L                   &kp SEMI                 &kp SQT
-&none       &mt LEFT_CONTROL Z  &mt LEFT_SHIFT X  &mt LEFT_ALT C  &mt LEFT_COMMAND V  &mt LA(LC(LG(LEFT_SHIFT))) B    &mt RA(RC(RG(RIGHT_SHIFT))) N  &mt RIGHT_COMMAND M  &mt RIGHT_ALT COMMA  &mt RIGHT_SHIFT PERIOD  &mt RIGHT_CONTROL SLASH  &none
-                                                  &lt 3 DEL       &lt 1 BACKSPACE     &mt LEFT_SHIFT TAB              &lt 2 RET                      &lt 4 SPACE          &lt 5 ESCAPE
+&kp ESCAPE     &kp B               &kp Y             &kp D           &kp L               &kp SLASH                          &kp Q                              &kp F                &kp O                &kp U                   &kp Z                &kp MINUS
+&mo 2          &kp C               &kp S             &kp T           &kp R               &kp J                              &kp K                              &kp N                &kp A                &kp I                   &kp H                &kp SQT
+&kp BACKSLASH  &mt LEFT_CONTROL V  &mt LEFT_SHIFT W  &mt LEFT_ALT G  &mt LEFT_COMMAND M  &mt LA(LC(LG(LEFT_SHIFT))) SEMI    &mt RA(RC(RG(RIGHT_SHIFT))) EQUAL  &mt RIGHT_COMMAND P  &mt RIGHT_ALT COMMA  &mt RIGHT_SHIFT PERIOD  &mt RIGHT_CONTROL X  &none
+                                                     &lt 3 DEL       &kp E               &lt 1 BACKSPACE                    &lt 2 RET                          &lt 4 SPACE          &lt 5 ESCAPE
             >;
         };
 
