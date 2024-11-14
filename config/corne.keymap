@@ -87,7 +87,7 @@
 &kp ESCAPE     &kp B               &kp Y             &kp D           &kp L               &kp SLASH                          &kp Q                              &kp F                &kp O                &kp U                   &kp Z                &kp MINUS
 &mo 2          &kp C               &kp S             &kp T           &kp R               &kp J                              &kp K                              &kp N                &kp A                &kp I                   &kp H                &kp SQT
 &kp BACKSLASH  &mt LEFT_CONTROL V  &mt LEFT_SHIFT W  &mt LEFT_ALT G  &mt LEFT_COMMAND M  &mt LA(LC(LG(LEFT_SHIFT))) SEMI    &mt RA(RC(RG(RIGHT_SHIFT))) EQUAL  &mt RIGHT_COMMAND P  &mt RIGHT_ALT COMMA  &mt RIGHT_SHIFT PERIOD  &mt RIGHT_CONTROL X  &kp UNDER
-                                                     &lt 3 RET       &lt 6 TAB           &lt 1 E                            &lt 2 BACKSPACE                    &lt 4 SPACE          &lt 5 DELETE
+                                                     &lt 3 RET       &lt 6 TAB           &lt 1 E                            &lt 4 SPACE                        &lt 2 BACKSPACE      &lt 5 DELETE
             >;
         };
 
