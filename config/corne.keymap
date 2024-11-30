@@ -29,7 +29,7 @@
 
         del_word {
             bindings = <&kp LA(BACKSPACE)>;
-            key-positions = <37 40>;
+            key-positions = <38 39>;
         };
 
         backpage {
@@ -63,8 +63,8 @@
         };
 
         sticky_shift {
-            bindings = <&kp LEFT_SHIFT>;
-            key-positions = <38 39>;
+            bindings = <&sk LEFT_SHIFT>;
+            key-positions = <37 40>;
         };
 
         HomeRowAppScrolling {
