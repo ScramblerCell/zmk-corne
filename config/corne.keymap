@@ -100,7 +100,7 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp LS(LC(LA(LG(B))))         &kp LA(LC(LG(RS(TILDE))))     &kp LG(LEFT_BRACKET)  &kp LG(RIGHT_BRACKET)  &none             &kp LG(X)                 &kp LS(TAB)    &kp PAGE_DOWN  &kp PAGE_UP  &kp TAB    &kp ESCAPE  &none
+&kp LS(LC(LA(LG(B))))         &kp LA(LC(LG(RS(TILDE))))     &kp LG(LEFT_BRACKET)  &kp LG(RIGHT_BRACKET)  &kp LG(R)         &kp LG(X)                 &kp LS(TAB)    &kp PAGE_DOWN  &kp PAGE_UP  &kp TAB    &kp ESCAPE  &none
 &kp LG(LC(LA(LS(NUMBER_4))))  &kp LS(LA(LC(LG(NUMBER_2))))  &kp LS(LG(Z))         &kp LG(Z)              &kp LG(C)         &kp LG(V)                 &kp LEFT       &kp DOWN       &kp UP       &kp RIGHT  &kp RET     &trans
 &kp LA(LC(LEFT_SHIFT))        &kp LEFT_CONTROL              &kp LEFT_SHIFT        &kp LEFT_ALT           &kp LEFT_COMMAND  &kp LA(LG(LC(LSHIFT)))    &trans         &trans         &trans       &trans     &trans      &trans
                                                                                   &none                  &trans            &none                     &kp BACKSPACE  &kp SPACE      &kp DELETE
