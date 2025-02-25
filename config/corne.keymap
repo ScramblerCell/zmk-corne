@@ -72,6 +72,11 @@
             bindings = <&kp LC(LA(LS(LG(J))))>;
             key-positions = <20 15 16 19>;
         };
+
+        Dictation_bound_to_hyper_b {
+            bindings = <&kp LS(LG(LC(LA(B))))>;
+            key-positions = <13 14 15>;
+        };
     };
 
     keymap {
