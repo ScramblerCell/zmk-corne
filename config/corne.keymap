@@ -77,6 +77,11 @@
             bindings = <&kp LS(LG(LC(LA(B))))>;
             key-positions = <13 14 15>;
         };
+
+        LeaderKey_MEH+, {
+            bindings = <&kp LS(LA(LC(COMMA)))>;
+            key-positions = <28 27 26>;
+        };
     };
 
     keymap {
