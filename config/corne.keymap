@@ -73,8 +73,8 @@
             key-positions = <13 14 15>;
         };
 
-        LeaderKey_MEH+, {
-            bindings = <&kp LS(LA(LC(COMMA)))>;
+        LeaderKey {
+            bindings = <&kp LS(LA(LC(RIGHT)))>;
             key-positions = <38 39>;
         };
     };
