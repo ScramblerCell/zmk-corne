@@ -60,7 +60,7 @@
 
         HomeRowApp {
             bindings = <&kp LC(LA(LS(LG(F))))>;
-            key-positions = <31 32 33>;
+            key-positions = <39 19>;
         };
 
         HomeRowAppScrolling {
