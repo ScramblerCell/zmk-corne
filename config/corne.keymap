@@ -84,7 +84,7 @@
         };
 
         mousless {
-            bindings = <&kp LA(LC(LG(LEFT_SHIFT)))>;
+            bindings = <&kp LA(LC(LS(LG(RIGHT))))>;
             key-positions = <39 19>;
         };
     };
