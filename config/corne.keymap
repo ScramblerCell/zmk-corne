@@ -79,7 +79,7 @@
         };
 
         stickyMEH {
-            bindings = <&kp LA(LC(LEFT_SHIFT))>;
+            bindings = <&sk LA(LC(LEFT_SHIFT))>;
             key-positions = <36 41>;
         };
 
