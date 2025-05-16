@@ -34,12 +34,12 @@
         };
 
         backpage {
-            bindings = <&kp LC(LEFT_BRACKET)>;
+            bindings = <&kp LA(LEFT)>;
             key-positions = <14 15 16>;
         };
 
         forwardPage {
-            bindings = <&kp LC(RIGHT_BRACKET)>;
+            bindings = <&kp LA(RIGHT)>;
             key-positions = <17 15 16>;
         };
 
@@ -58,34 +58,9 @@
             key-positions = <18 19 20>;
         };
 
-        HomeRowApp {
-            bindings = <&kp LC(LA(LS(LG(F))))>;
-            key-positions = <16 38>;
-        };
-
-        HomeRowAppScrolling {
-            bindings = <&kp LC(LA(LS(LG(J))))>;
-            key-positions = <20 15 16 19>;
-        };
-
-        Dictation_bound_to_hyper_b {
-            bindings = <&kp LS(LG(LC(LA(B))))>;
-            key-positions = <13 14 15>;
-        };
-
-        LeaderKey {
-            bindings = <&kp LS(LA(LC(RIGHT)))>;
+        windows {
+            bindings = <&kp LEFT_GUI>;
             key-positions = <38 39>;
-        };
-
-        stickyMEH {
-            bindings = <&sk LA(LC(LEFT_SHIFT))>;
-            key-positions = <36 41>;
-        };
-
-        mousless {
-            bindings = <&kp LA(LC(LS(LG(RIGHT))))>;
-            key-positions = <39 19>;
         };
     };
 
