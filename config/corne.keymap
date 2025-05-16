@@ -141,10 +141,10 @@
 
         MACOS {
             bindings = <
-&kp ESCAPE              &kp Q           &kp W             &kp E           &kp R               &kp T                           &kp Y                          &kp U                &kp I                &kp O                   &kp P                &kp MINUS
-&sl 2                   &kp A           &kp S             &kp D           &kp F               &kp G                           &kp H                          &kp J                &kp K                &kp L                   &kp SEMI             &kp SQT
-&kp LA(LC(LEFT_SHIFT))  &mt LEFT_GUI Z  &mt LEFT_SHIFT X  &mt LEFT_ALT C  &mt LEFT_CONTROL V  &mt LA(LC(LG(LEFT_SHIFT))) B    &mt RA(RC(RG(RIGHT_SHIFT))) N  &mt RIGHT_CONTROL M  &mt RIGHT_ALT COMMA  &mt RIGHT_SHIFT PERIOD  &mt RIGHT_GUI SLASH  &kp RA(RC(RIGHT_SHIFT))
-                                                          &lt 5 TAB       &kp LEFT_SHIFT      &mo 1                           &lt 3 SPACE                    &lt 2 BACKSPACE      &lt 4 DELETE
+&kp ESCAPE              &kp Q               &kp W             &kp E           &kp R               &kp T                           &kp Y                          &kp U            &kp I                &kp O                   &kp P                   &kp MINUS
+&sl 2                   &kp A               &kp S             &kp D           &kp F               &kp G                           &kp H                          &kp J            &kp K                &kp L                   &kp SEMI                &kp SQT
+&kp LA(LC(LEFT_SHIFT))  &mt LEFT_CONTROL Z  &mt LEFT_SHIFT X  &mt LEFT_ALT C  &mt LEFT_COMMAND V  &mt LA(LC(LG(LEFT_SHIFT))) B    &mt RA(RC(RG(RIGHT_SHIFT))) N  &mt LEFT_GUI M   &mt RIGHT_ALT COMMA  &mt RIGHT_SHIFT PERIOD  &mt LEFT_CONTROL SLASH  &kp RA(RC(RIGHT_SHIFT))
+                                                              &lt 5 TAB       &kp LEFT_SHIFT      &mo 1                           &lt 3 SPACE                    &lt 2 BACKSPACE  &lt 4 DELETE
             >;
         };
     };
