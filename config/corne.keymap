@@ -76,7 +76,7 @@
 
             bindings = <
 &kp ESCAPE              &kp Q           &kp W             &kp E           &kp R               &kp T                           &kp Y                          &kp U                &kp I                &kp O                   &kp P                &kp MINUS
-&mo 2                   &kp A           &kp S             &kp D           &kp F               &kp G                           &kp H                          &kp J                &kp K                &kp L                   &kp SEMI             &kp SQT
+&sl 2                   &kp A           &kp S             &kp D           &kp F               &kp G                           &kp H                          &kp J                &kp K                &kp L                   &kp SEMI             &kp SQT
 &kp LA(LC(LEFT_SHIFT))  &mt LEFT_GUI Z  &mt LEFT_SHIFT X  &mt LEFT_ALT C  &mt LEFT_CONTROL V  &mt LA(LC(LG(LEFT_SHIFT))) B    &mt RA(RC(RG(RIGHT_SHIFT))) N  &mt RIGHT_CONTROL M  &mt RIGHT_ALT COMMA  &mt RIGHT_SHIFT PERIOD  &mt RIGHT_GUI SLASH  &kp RA(RC(RIGHT_SHIFT))
                                                           &lt 5 TAB       &kp LEFT_SHIFT      &mo 1                           &lt 3 SPACE                    &lt 2 BACKSPACE      &lt 4 DELETE
             >;
@@ -106,7 +106,7 @@
 
             bindings = <
 &kp TAB                 &none             &kp K_MUTE      &kp C_VOLUME_DOWN  &kp C_VOLUME_UP   &kp C_BRIGHTNESS_INC          &none       &kp N7  &kp N8  &kp N9  &kp PLUS   &kp BACKSLASH
-&tog 4                  &none             &kp K_PREV      &kp C_PLAY         &kp C_NEXT        &kp C_BRIGHTNESS_DEC          &kp PERIOD  &kp N4  &kp N5  &kp N6  &kp EQUAL  &kp ASTERISK
+&tog 6                  &tog 0            &kp K_PREV      &kp C_PLAY         &kp C_NEXT        &kp C_BRIGHTNESS_DEC          &kp PERIOD  &kp N4  &kp N5  &kp N6  &kp EQUAL  &kp ASTERISK
 &kp LA(LC(LEFT_SHIFT))  &kp LG(LEFT_GUI)  &kp LEFT_SHIFT  &kp LEFT_ALT       &kp LEFT_CONTROL  &kp LA(LC(LG(LEFT_SHIFT)))    &kp N0      &kp N1  &kp N2  &kp N3  &kp MINUS  &kp FSLH
                                                           &kp BACKSPACE      &kp SPACE         &kp DEL                       &none       &none   &none
             >;
@@ -136,6 +136,15 @@
 &none  &none  &none  &none  &none  &none    &kp LG(LA(LEFT))  &kp LG(LA(DOWN))  &kp LG(LA(UP_ARROW))  &kp LA(LG(RIGHT))  &none             &none
 &none  &none  &none  &none  &none  &none    &none             &kp LG(DOWN)      &kp LG(UP_ARROW)      &none              &none             &none
                      &none  &none  &none    &none             &none             &none
+            >;
+        };
+
+        MACOS {
+            bindings = <
+&kp ESCAPE              &kp Q           &kp W             &kp E           &kp R               &kp T                           &kp Y                          &kp U                &kp I                &kp O                   &kp P                &kp MINUS
+&sl 2                   &kp A           &kp S             &kp D           &kp F               &kp G                           &kp H                          &kp J                &kp K                &kp L                   &kp SEMI             &kp SQT
+&kp LA(LC(LEFT_SHIFT))  &mt LEFT_GUI Z  &mt LEFT_SHIFT X  &mt LEFT_ALT C  &mt LEFT_CONTROL V  &mt LA(LC(LG(LEFT_SHIFT))) B    &mt RA(RC(RG(RIGHT_SHIFT))) N  &mt RIGHT_CONTROL M  &mt RIGHT_ALT COMMA  &mt RIGHT_SHIFT PERIOD  &mt RIGHT_GUI SLASH  &kp RA(RC(RIGHT_SHIFT))
+                                                          &lt 5 TAB       &kp LEFT_SHIFT      &mo 1                           &lt 3 SPACE                    &lt 2 BACKSPACE      &lt 4 DELETE
             >;
         };
     };
