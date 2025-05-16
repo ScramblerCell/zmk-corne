@@ -29,17 +29,17 @@
         };
 
         del_word {
-            bindings = <&kp LA(BACKSPACE)>;
+            bindings = <&kp LC(BACKSPACE)>;
             key-positions = <37 40>;
         };
 
         backpage {
-            bindings = <&kp LG(LEFT_BRACKET)>;
+            bindings = <&kp LC(LEFT_BRACKET)>;
             key-positions = <14 15 16>;
         };
 
         forwardPage {
-            bindings = <&kp LG(RIGHT_BRACKET)>;
+            bindings = <&kp LC(RIGHT_BRACKET)>;
             key-positions = <17 15 16>;
         };
 
@@ -100,10 +100,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&kp ESCAPE              &kp Q               &kp W             &kp E           &kp R               &kp T                           &kp Y                          &kp U                &kp I                &kp O                   &kp P                    &kp MINUS
-&mo 2                   &kp A               &kp S             &kp D           &kp F               &kp G                           &kp H                          &kp J                &kp K                &kp L                   &kp SEMI                 &kp SQT
-&kp LA(LC(LEFT_SHIFT))  &mt LEFT_CONTROL Z  &mt LEFT_SHIFT X  &mt LEFT_ALT C  &mt LEFT_COMMAND V  &mt LA(LC(LG(LEFT_SHIFT))) B    &mt RA(RC(RG(RIGHT_SHIFT))) N  &mt RIGHT_COMMAND M  &mt RIGHT_ALT COMMA  &mt RIGHT_SHIFT PERIOD  &mt RIGHT_CONTROL SLASH  &kp RA(RC(RIGHT_SHIFT))
-                                                              &lt 3 TAB       &kp LEFT_SHIFT      &mo 1                           &lt 4 SPACE                    &lt 2 BACKSPACE      &lt 5 DELETE
+&kp ESCAPE              &kp Q           &kp W             &kp E           &kp R               &kp T                           &kp Y                          &kp U                &kp I                &kp O                   &kp P                &kp MINUS
+&mo 2                   &kp A           &kp S             &kp D           &kp F               &kp G                           &kp H                          &kp J                &kp K                &kp L                   &kp SEMI             &kp SQT
+&kp LA(LC(LEFT_SHIFT))  &mt LEFT_GUI Z  &mt LEFT_SHIFT X  &mt LEFT_ALT C  &mt LEFT_CONTROL V  &mt LA(LC(LG(LEFT_SHIFT))) B    &mt RA(RC(RG(RIGHT_SHIFT))) N  &mt RIGHT_CONTROL M  &mt RIGHT_ALT COMMA  &mt RIGHT_SHIFT PERIOD  &mt RIGHT_GUI SLASH  &kp RA(RC(RIGHT_SHIFT))
+                                                          &lt 5 TAB       &kp LEFT_SHIFT      &mo 1                           &lt 3 SPACE                    &lt 2 BACKSPACE      &lt 4 DELETE
             >;
         };
 
@@ -115,10 +115,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp LS(LC(LA(LG(B))))         &kp LA(LC(LG(RS(TILDE))))     &kp LG(LEFT_BRACKET)  &kp LG(RIGHT_BRACKET)  &kp LG(R)         &kp LG(X)                 &kp LS(TAB)    &kp PAGE_DOWN  &kp PAGE_UP  &kp TAB    &kp ESCAPE  &none
-&kp LG(LC(LA(LS(NUMBER_4))))  &kp LS(LA(LC(LG(NUMBER_2))))  &kp LS(LG(Z))         &kp LG(Z)              &kp LG(C)         &kp LG(V)                 &kp LEFT       &kp DOWN       &kp UP       &kp RIGHT  &kp RET     &trans
-&kp LA(LC(LEFT_SHIFT))        &kp LEFT_CONTROL              &kp LEFT_SHIFT        &kp LEFT_ALT           &kp LEFT_COMMAND  &kp LA(LG(LC(LSHIFT)))    &trans         &trans         &trans       &trans     &trans      &trans
-                                                                                  &none                  &trans            &none                     &kp BACKSPACE  &kp SPACE      &kp DELETE
+&none                   &none          &kp LA(LEFT_BRACKET)  &kp LA(RIGHT_BRACKET)  &kp LG(R)         &kp LG(X)                 &kp LS(TAB)    &kp PAGE_DOWN  &kp PAGE_UP  &kp TAB    &kp ESCAPE  &none
+&none                   &kp LG(LS(S))  &kp LS(LC(Z))         &kp LC(Z)              &kp LC(C)         &kp LC(V)                 &kp LEFT       &kp DOWN       &kp UP       &kp RIGHT  &kp RET     &trans
+&kp LA(LC(LEFT_SHIFT))  &kp LEFT_GUI   &kp LEFT_SHIFT        &kp LEFT_ALT           &kp LEFT_CONTROL  &kp LA(LG(LC(LSHIFT)))    &trans         &trans         &trans       &trans     &trans      &trans
+                                                             &none                  &trans            &none                     &kp BACKSPACE  &kp SPACE      &kp DELETE
             >;
         };
 
@@ -130,19 +130,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp TAB                 &none             &kp K_MUTE      &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp C_BRIGHTNESS_INC          &none       &kp N7  &kp N8  &kp N9  &kp PLUS   &none
-&tog 5                  &none             &kp K_PREV      &kp C_PLAY         &kp C_NEXT       &kp C_BRIGHTNESS_DEC          &kp PERIOD  &kp N4  &kp N5  &kp N6  &kp EQUAL  &kp ASTERISK
-&kp LA(LC(LEFT_SHIFT))  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &kp LEFT_ALT       &kp LEFT_GUI     &kp LA(LC(LG(LEFT_SHIFT)))    &kp N0      &kp N1  &kp N2  &kp N3  &kp MINUS  &kp FSLH
-                                                          &kp BACKSPACE      &kp SPACE        &kp DEL                       &none       &none   &none
-            >;
-        };
-
-        WIN {
-            bindings = <
-&none   &none   &none                  &none                  &none                   &none            &kp LC(LS(LA(GRAVE)))  &kp N1             &kp N2         &kp N3  &kp N4         &kp LC(LA(LS(P)))
-&none   &none   &kp LS(LA(LC(MINUS)))  &kp LS(LA(LC(EQUAL)))  &kp LC(LA(LS(F)))       &kp LC(LG(F))    &kp H                  &kp J              &kp K          &kp L   &kp SEMICOLON  &kp SQT
-&trans  &trans  &trans                 &kp LC(LG(LEFT_ALT))   &kp LC(LA(LEFT_SHIFT))  &none            &none                  &kp LA(LS(LC(F)))  &kp LC(LG(F))  &none   &none          &kp LA(LS(LC(R)))
-                                       &none                  &none                   &none            &none                  &none              &none
+&kp TAB                 &none             &kp K_MUTE      &kp C_VOLUME_DOWN  &kp C_VOLUME_UP   &kp C_BRIGHTNESS_INC          &none       &kp N7  &kp N8  &kp N9  &kp PLUS   &kp BACKSLASH
+&tog 4                  &none             &kp K_PREV      &kp C_PLAY         &kp C_NEXT        &kp C_BRIGHTNESS_DEC          &kp PERIOD  &kp N4  &kp N5  &kp N6  &kp EQUAL  &kp ASTERISK
+&kp LA(LC(LEFT_SHIFT))  &kp LG(LEFT_GUI)  &kp LEFT_SHIFT  &kp LEFT_ALT       &kp LEFT_CONTROL  &kp LA(LC(LG(LEFT_SHIFT)))    &kp N0      &kp N1  &kp N2  &kp N3  &kp MINUS  &kp FSLH
+                                                          &kp BACKSPACE      &kp SPACE         &kp DEL                       &none       &none   &none
             >;
         };
 
@@ -157,10 +148,19 @@
 
         SYSTEM+FN {
             bindings = <
-&bt BT_CLR    &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &none    &none  &kp F7  &kp F8  &kp F9  &kp F10  &bootloader
-&out OUT_BLE  &none         &none         &none         &none         &none    &none  &kp F4  &kp F5  &kp F6  &kp F11  &none
-&sys_reset    &none         &none         &none         &none         &none    &none  &kp F1  &kp F2  &kp F3  &kp F12  &none
-                                          &none         &none         &none    &none  &none   &none
+&bt BT_CLR    &bt BT_SEL 0  &bt BT_SEL 1    &bt BT_SEL 2  &bt BT_SEL 3      &none    &none        &kp F7  &kp F8  &kp F9  &kp F10  &kp F13
+&out OUT_BLE  &none         &none           &none         &none             &none    &none        &kp F4  &kp F5  &kp F6  &kp F11  &kp F14
+&sys_reset    &kp LEFT_GUI  &kp LEFT_SHIFT  &kp LEFT_ALT  &kp LEFT_CONTROL  &none    &bootloader  &kp F1  &kp F2  &kp F3  &kp F12  &kp F15
+                                            &none         &none             &none    &none        &none   &none
+            >;
+        };
+
+        WIN {
+            bindings = <
+&none  &none  &none  &none  &none  &none    &kp LG(TAB)       &kp LG(NUMBER_1)  &kp LG(NUMBER_2)      &kp LG(NUMBER_3)   &kp LG(NUMBER_4)  &kp LG(L)
+&none  &none  &none  &none  &none  &none    &kp LG(LA(LEFT))  &kp LG(LA(DOWN))  &kp LG(LA(UP_ARROW))  &kp LA(LG(RIGHT))  &none             &none
+&none  &none  &none  &none  &none  &none    &none             &kp LG(DOWN)      &kp LG(UP_ARROW)      &none              &none             &none
+                     &none  &none  &none    &none             &none             &none
             >;
         };
     };
