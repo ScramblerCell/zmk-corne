@@ -157,10 +157,10 @@
 
         SYSTEM+FN {
             bindings = <
-&bt BT_CLR    &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &none    &none  &kp F7  &kp F8  &kp F9  &kp F10  &bootloader
-&out OUT_BLE  &none         &none         &none         &none         &none    &none  &kp F4  &kp F5  &kp F6  &kp F11  &none
-&sys_reset    &none         &none         &none         &none         &none    &none  &kp F1  &kp F2  &kp F3  &kp F12  &none
-                                          &none         &none         &none    &none  &none   &none
+&bt BT_CLR    &bt BT_SEL 0      &bt BT_SEL 1    &bt BT_SEL 2  &bt BT_SEL 3  &none    &none        &kp F7  &kp F8  &kp F9  &kp F10  &kp F13
+&out OUT_BLE  &none             &none           &none         &none         &none    &none        &kp F4  &kp F5  &kp F6  &kp F11  &kp F14
+&sys_reset    &kp LEFT_CONTROL  &kp LEFT_SHIFT  &kp LEFT_ALT  &kp LEFT_GUI  &none    &bootloader  &kp F1  &kp F2  &kp F3  &kp F12  &kp F15
+                                                &none         &none         &none    &none        &none   &none
             >;
         };
     };
