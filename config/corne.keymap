@@ -90,10 +90,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&none                   &none          &kp LA(LEFT_BRACKET)  &kp LA(RIGHT_BRACKET)  &kp LG(R)         &kp LG(X)                 &kp LS(TAB)    &kp PAGE_DOWN  &kp PAGE_UP  &kp TAB    &kp ESCAPE  &none
-&none                   &kp LG(LS(S))  &kp LS(LC(Z))         &kp LC(Z)              &kp LC(C)         &kp LC(V)                 &kp LEFT       &kp DOWN       &kp UP       &kp RIGHT  &kp RET     &trans
-&kp LA(LC(LEFT_SHIFT))  &kp LEFT_GUI   &kp LEFT_SHIFT        &kp LEFT_ALT           &kp LEFT_CONTROL  &kp LA(LG(LC(LSHIFT)))    &trans         &trans         &trans       &trans     &trans      &trans
-                                                             &none                  &trans            &none                     &kp BACKSPACE  &kp SPACE      &kp DELETE
+&none                   &none          &kp LA(LEFT_ARROW)  &kp LA(RIGHT_ARROW)  &kp LG(R)         &kp LG(X)                 &kp LS(TAB)    &kp PAGE_DOWN  &kp PAGE_UP  &kp TAB    &kp ESCAPE  &none
+&none                   &kp LG(LS(S))  &kp LS(LC(Z))       &kp LC(Z)            &kp LC(C)         &kp LC(V)                 &kp LEFT       &kp DOWN       &kp UP       &kp RIGHT  &kp RET     &trans
+&kp LA(LC(LEFT_SHIFT))  &kp LEFT_GUI   &kp LEFT_SHIFT      &kp LEFT_ALT         &kp LEFT_CONTROL  &kp LA(LG(LC(LSHIFT)))    &trans         &trans         &trans       &trans     &trans      &trans
+                                                           &none                &trans            &none                     &kp BACKSPACE  &kp SPACE      &kp DELETE
             >;
         };
 
