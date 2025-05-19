@@ -63,11 +63,6 @@
             key-positions = <16 38>;
         };
 
-        HomeRowAppScrolling {
-            bindings = <&kp LC(LA(LS(LG(J))))>;
-            key-positions = <20 15 16 19>;
-        };
-
         Dictation_bound_to_hyper_b {
             bindings = <&kp LS(LG(LC(LA(B))))>;
             key-positions = <13 14 15>;
@@ -78,14 +73,24 @@
             key-positions = <38 39>;
         };
 
-        stickyMEH {
-            bindings = <&sk LA(LC(LEFT_SHIFT))>;
-            key-positions = <36 41>;
-        };
-
         mousless {
             bindings = <&kp LA(LC(LS(LG(RIGHT))))>;
             key-positions = <39 19>;
+        };
+
+        W_forwardPage {
+            bindings = <&kp LA(RIGHT_ARROW)>;
+            key-positions = <4 3 5>;
+        };
+
+        W_backPage {
+            bindings = <&kp LA(LEFT_ARROW)>;
+            key-positions = <4 3 2>;
+        };
+
+        delLine {
+            bindings = <&kp LC(BACKSPACE)>;
+            key-positions = <36 41>;
         };
     };
 
