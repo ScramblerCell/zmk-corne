@@ -94,6 +94,16 @@
         };
     };
 
+    macros {
+        del_line: del_line {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&macro_tap>, <&kp END &kp LS(HOME) &kp BACKSPACE>;
+
+            label = "DEL_LINE";
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -122,7 +132,7 @@
             bindings = <
 &kp LS(LC(LA(LG(B))))         &kp LA(LC(LG(RS(TILDE))))     &kp LC(LEFT_BRACKET)  &kp LC(RIGHT_BRACKET)  &kp LC(R)         &kp LC(X)                 &kp LS(TAB)    &kp PAGE_DOWN  &kp PAGE_UP  &kp TAB    &kp ESCAPE  &none
 &kp LG(LC(LA(LS(NUMBER_4))))  &kp LS(LA(LC(LG(NUMBER_2))))  &kp LS(LC(Z))         &kp LC(Z)              &kp LC(C)         &kp LC(V)                 &kp LEFT       &kp DOWN       &kp UP       &kp RIGHT  &kp RET     &trans
-&kp LA(LG(LEFT_SHIFT))        &kp LEFT_GUI                  &kp LEFT_SHIFT        &kp LEFT_ALT           &kp LEFT_CONTROL  &kp LA(LG(LC(LSHIFT)))    &kp HOME       &trans         &trans       &kp END    &trans      &trans
+&kp LA(LG(LEFT_SHIFT))        &kp LEFT_GUI                  &kp LEFT_SHIFT        &kp LEFT_ALT           &kp LEFT_CONTROL  &kp LA(LG(LC(LSHIFT)))    &kp HOME       &del_line      &trans       &kp END    &trans      &trans
                                                                                   &none                  &trans            &none                     &kp BACKSPACE  &kp SPACE      &kp DELETE
             >;
         };
